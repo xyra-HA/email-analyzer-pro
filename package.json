@@ -91,13 +91,5 @@
   "packageManager": "pnpm@10.4.1",
   "engines": {
     "node": ">=20"
-  },
-  "pnpm": {
-    "patchedDependencies": {
-      "wouter@3.7.1": "patches/wouter@3.7.1.patch"
-    },
-    "overrides": {
-      "tailwindcss>nanoid": "3.3.7"
-    }
   }
 }
