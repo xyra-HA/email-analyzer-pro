@@ -1,6 +1,7 @@
 {
   "version": 2,
   "framework": "vite",
+  "public": "dist/public",
   "rewrites": [
     {
       "source": "/api/(.*)",
