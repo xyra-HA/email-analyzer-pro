@@ -244,3 +244,16 @@
   .fade-in-up-stagger > *:nth-child(4) { animation-delay: 180ms; }
   .fade-in-up-stagger > *:nth-child(5) { animation-delay: 240ms; }
 }
+
+/* Burgundy color utilities */
+.text-burgundy-light { color: oklch(0.70 0.18 10); }
+.bg-burgundy { background-color: oklch(0.42 0.18 10); }
+.bg-burgundy\/20 { background-color: oklch(0.42 0.18 10 / 20%); }
+.bg-burgundy\/10 { background-color: oklch(0.42 0.18 10 / 10%); }
+.bg-burgundy\/5  { background-color: oklch(0.42 0.18 10 / 5%); }
+.border-burgundy  { border-color: oklch(0.42 0.18 10); }
+.border-burgundy\/40 { border-color: oklch(0.42 0.18 10 / 40%); }
+.border-burgundy\/30 { border-color: oklch(0.42 0.18 10 / 30%); }
+.border-burgundy\/20 { border-color: oklch(0.42 0.18 10 / 20%); }
+.hover\:border-burgundy\/40:hover { border-color: oklch(0.42 0.18 10 / 40%); }
+.hover\:bg-burgundy\/20:hover { background-color: oklch(0.42 0.18 10 / 20%); }
