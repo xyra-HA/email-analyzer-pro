@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "buildCommand": "pnpm run build",
+  "buildCommand": "npm run build",
   "outputDirectory": "dist/public",
-  "installCommand": "npm install -g pnpm && pnpm install",
+  "installCommand": "npm install --legacy-peer-deps",
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]
