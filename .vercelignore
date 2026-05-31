@@ -1,0 +1,9 @@
+.git
+.gitignore
+node_modules
+pnpm-lock.yaml
+.env.local
+.env.*.local
+.manus-logs
+.DS_Store
+*.log
